@@ -18,7 +18,7 @@ i[class^="fa"]{
     grid-column: 2/3;
     grid-row: 1/2;
     background-color:white;
-    padding: 10px 50px;
+    padding: 20px 50px;
     display: grid;
     grid-template-rows: 40px 80px;
     grid-template-columns: 1fr 1fr;
@@ -205,4 +205,10 @@ header button:hover{
 .search input:focus{
      outline: none;
     border: 2px solid #F2D247;
+}
+
+.sidebar > .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
